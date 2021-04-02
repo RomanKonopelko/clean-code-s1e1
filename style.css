@@ -90,12 +90,12 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]:focus {
+.todo-list__input:focus {
   color: #333;
 }
 
 /* New Task */
-label[for="add-todo__input"] {
+.add-todo__task {
   display: block;
   margin: 0 0 20px;
 }
@@ -104,8 +104,12 @@ label[for="add-todo__input"] {
   width: 318px;
 }
 
-p > button:hover {
+.todo-list__button:hover {
   color: #0fc57c;
+}
+
+.delete-button_.delete-button__icon {
+  color: #cf2323;
 }
 
 /* Task list */
@@ -119,22 +123,22 @@ p > button:hover {
   align-items: center;
 }
 
-li > * {
+.todo-list__item > * {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+.todo-list__item > input[type="checkbox"] {
   margin: 0 10px;
 }
 
-li > label {
+.add-todo__item > .todo-list__task {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-li > input[type="text"] {
+.todo-list__item > input[type="text"] {
   width: 226px;
 }
 
@@ -149,21 +153,21 @@ li > input[type="text"] {
 }
 
 /* Completed */
-ul#completed-tasks label {
+#completed-tasks .todo-list__task {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-ul li input[type="text"] {
+.todo-list__input {
   display: none;
 }
 
-ul li.editMode input[type="text"] {
+.editMode .todo-list__input {
   display: inline-block;
   width: 224px;
 }
 
-ul li.editMode label {
+.editMode .todo-list__task {
   display: none;
 }

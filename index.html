@@ -17,18 +17,18 @@
         </div>
         <div class="main-container">
           <form id="add-todo__form">
-            <label for="add-todo__input">Add Item</label>
+            <label class="add-todo__task" for="add-todo__input">Add Item</label>
             <div class="add-todo__wrapper">
               <input id="add-todo__input" class="add-todo__input" type="text" />
-              <button type="button">Add</button>
+              <button type="button" class="todo-list__button">Add</button>
             </div>
           </form>
           <h3>Todo</h3>
           <ul id="incompleteTasks" class="todo-list">
             <li class="todo-list__item">
               <input type="checkbox" />
-              <label class="todo-task">Pay Bills</label>
-              <input type="text" />
+              <label class="todo-list__task">Pay Bills</label>
+              <input class="todo-list__input" type="text" />
               <button class="edit todo-list__button">Edit</button>
               <button class="delete delete-button">
                 <img
@@ -41,8 +41,8 @@
             </li>
             <li class="editMode todo-list__item">
               <input type="checkbox" />
-              <label class="task">Go Shopping</label>
-              <input type="text" value="Go Shopping" class="task" />
+              <label class="todo-list__task">Go Shopping</label>
+              <input class="todo-list__input" type="text" value="Go Shopping" />
               <button class="edit todo-list__button">Save</button>
               <button class="delete delete-button">
                 <img
@@ -58,8 +58,8 @@
           <ul id="completed-tasks" class="todo-list">
             <li class="todo-list__item">
               <input type="checkbox" checked />
-              <label class="task">See the Doctor</label>
-              <input type="text" class="task" />
+              <label class="todo-list__task">See the Doctor</label>
+              <input class="todo-list__input" type="text" />
               <button class="edit todo-list__button">Edit</button>
               <button class="delete delete-button">
                 <img
