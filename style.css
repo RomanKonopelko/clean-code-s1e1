@@ -50,9 +50,11 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+  
   .main-container {
     text-align: center;
   }
+
 }
 
 .add-todo__input {
@@ -164,12 +166,12 @@ h3,
   display: none;
 }
 
-.editMode .todo-list__input {
+.edit-mode .todo-list__input {
   display: inline-block;
   flex-grow: 1;
   width: 224px;
 }
 
-.editMode .todo-list__task {
+.edit-mode .todo-list__task {
   display: none;
 }
