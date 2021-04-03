@@ -108,7 +108,7 @@ input[type="text"] {
   color: #0fc57c;
 }
 
-.delete-button_.delete-button__icon {
+.delete-button .delete-button__icon {
   color: #cf2323;
 }
 
@@ -127,7 +127,7 @@ input[type="text"] {
   vertical-align: middle;
 }
 
-.todo-list__item > input[type="checkbox"] {
+.todo-list__item > .todo-list__checkbox {
   margin: 0 10px;
 }
 
