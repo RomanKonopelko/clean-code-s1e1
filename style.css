@@ -166,6 +166,7 @@ h3,
 
 .editMode .todo-list__input {
   display: inline-block;
+  flex-grow: 1;
   width: 224px;
 }
 
